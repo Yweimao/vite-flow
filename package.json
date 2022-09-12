@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.39"
   }
 }
