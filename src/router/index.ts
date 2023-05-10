@@ -12,7 +12,7 @@ const getRouters = () => {
   // console.log("files:", files)
   const router = Object.entries(files).map(([file, module]) => {
     const name = file.match(/\.\.\/views\/([^.]+?)\.vue/)?.[1]
-    console.log(name)
+    console.log(name, module)
     return {
       path: "/" + name,
       component: module
